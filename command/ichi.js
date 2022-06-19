@@ -232,18 +232,18 @@ case 'menu': case 'help': case '?': {
   }
   break
 case 'donasi': case 'sewa': case 'sewabot': {
-  let donasi = `Scan QR Above To Donate
+  let donasi = `https://sociabuzz.com/yakuzaaa_27/tribe
 
 Rental Bot Prices :
-💰 10k/week
-💰 25k/month
-💰 100k/year`
+💰 10k/semmingu
+💰 30k/sebulan
+💰 50k/Setahun`
   let but = [{"quickReplyButton": {"displayText": "Owner 👦","id": "owner"}}]
   ichi.sendButtonImg(m.chat, donasi, global.ownerName, global.donasi, but)
   }
   break
 case 'sc': case 'sourcecode': case 'script': {
-  m.reply('*Script Berasal Dari :* https://github.com/nzrlafndi/ichigo-kurosaki\n\nJangan Lupa Bintang nya!')
+  m.reply('*Script Berasal Dari :* https://github.com\n\nJangan Lupa Bintang nya!')
   }
   break
 case 'owner': {
