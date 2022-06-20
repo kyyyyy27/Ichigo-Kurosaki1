@@ -235,9 +235,12 @@ case 'donasi': case 'sewa': case 'sewabot': {
   let donasi = `https://sociabuzz.com/yakuzaaa_27/tribe
 
 Rental Bot Prices :
-💰 10k/semmingu
-💰 30k/sebulan
-💰 50k/Setahun`
+💰 15k/semmingu
+💰 25k/sebulan
+💰 35k/Setahun
+💰 45k/ Permanen
+Note: Kalian Bisa request Mau berapa Minggu contoh 3 minggu
+Yang permanen 3 orang siapa cepat dia dapat🐦`
   let but = [{"quickReplyButton": {"displayText": "Owner 👦","id": "owner"}}]
   ichi.sendButtonImg(m.chat, donasi, global.ownerName, global.donasi, but)
   }
