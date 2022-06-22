@@ -223,24 +223,20 @@ case 'menu': case 'help': case '?': {
   `
   let but = [
   {urlButton: {displayText: 'Source Code ♨️',url: 'kepo Ke dora'}}, 
-  {urlButton: {displayText: 'Website 🔗',url: 'https://sociabuzz.com/yakuzaaa_27/tribe'}}, 
+  {urlButton: {displayText: 'Website 🔗',url: 'https://sociabuzz.com/yakuzaaa_27'}}, 
   {"quickReplyButton": {"displayText": "Donasi 🗂️","id": `donasi`},},
-  {"quickReplyButton": {"displayText": "Owner 👦","id": "owner"},},
+  {"quickReplyButton": {"displayText": "Owner 🌸","id": "owner"},},
   {"quickReplyButton": {"displayText": "Status Bot ⌚","id": `ping`}}
   ]
   ichi.sendButtonImg(m.chat, menu, global.ownerName, global.thumb, but)
   }
   break
 case 'donasi': case 'sewa': case 'sewabot': {
-  let donasi = `https://sociabuzz.com/yakuzaaa_27/tribe
+  let donasi = `https://saweria.co/Yakuzaa277
 
 Rental Bot Prices :
-💰 15k/semmingu
-💰 25k/sebulan
-💰 35k/Setahun
-💰 45k/ Permanen
-Note: Kalian Bisa request Mau berapa Minggu contoh 3 minggu
-Yang permanen 3 orang siapa cepat dia dapat🐦`
+💰 10K /Permanen
+Kalau Minat Ketik .owner`
   let but = [{"quickReplyButton": {"displayText": "Owner 👦","id": "owner"}}]
   ichi.sendButtonImg(m.chat, donasi, global.ownerName, global.donasi, but)
   }
